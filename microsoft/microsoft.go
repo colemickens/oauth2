@@ -14,3 +14,9 @@ var LiveConnectEndpoint = oauth2.Endpoint{
 	AuthURL:  "https://login.live.com/oauth20_authorize.srf",
 	TokenURL: "https://login.live.com/oauth20_token.srf",
 }
+
+// ActiveDirectoryConnectEndpoint is Microsoft Azure's Active Directory OAuth 2.0 endpoint.
+var ActiveDirectoryConnectEndpoint = oauth2.Endpoint{
+	AuthURL:  "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+	TokenURL: "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+}
